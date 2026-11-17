@@ -1,0 +1,78 @@
+body {
+    background-color: #1e1b2e;
+    color: #e2d9f3;
+    font-family: 'Georgia', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #d7bde2;
+}
+
+.card {
+    background-color: #2a2438 !important;
+    border: 2px solid #5b3e7a !important;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: #9b59b6 !important;
+}
+
+p, .text-muted {
+    color: #bcaad9 !important;
+}
+
+.btn-danger {
+    background-color: #8e44ad !important;
+    border: none !important;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.btn-danger:hover {
+    background-color: #732d91 !important;
+}
+
+.btn-primary {
+    background-color: #512e5f !important;
+    border: 1px solid #8e44ad !important;
+}
+
+.btn-primary:hover {
+    background-color: #6c3483 !important;
+}
+
+.btn-secondary {
+    background-color: #3b2e4c !important;
+    border: 1px solid #7d669e !important;
+    color: #e2d9f3 !important;
+}
+
+.btn-secondary:hover {
+    background-color: #4d3a63 !important;
+}
+
+.form-control {
+    background-color: #1e1b2e !important;
+    border: 1px solid #5b3e7a !important;
+    color: #fff !important;
+}
+
+.form-control:focus {
+    background-color: #1e1b2e !important;
+    border-color: #9b59b6 !important;
+    color: #fff !important;
+    box-shadow: 0 0 8px rgba(155, 89, 182, 0.4);
+}
+
+.form-label {
+    color: #d7bde2;
+}
+
+/* Linha divisória temática */
+hr {
+    border-color: #5b3e7a;
+}
